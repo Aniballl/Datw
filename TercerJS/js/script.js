@@ -117,3 +117,17 @@ if(numero1<0 || numero1!=0){
 if(++numero1<=numero2){
     alert("Incrementar en 1 unidad el valor de numero1 no lo hac mayor o igual que numero2");
 }
+/**Existe la opcion de anidar if - else-if-else */
+//si eres <12 años eres pequeño, sieres <19 eres adolescente, si eres <35 años sigues siendo joven, sino.... "Cuidate mucho"
+let nEdad=42
+let msnEdad;
+if(nEdad<12){
+    msnEdad="Todavia eres muy pequeño";
+}else if(nEdad<19){
+    msnEdad="Eres Adolescente";
+}else if(nEdad<35){
+    msnEdad="Todavia eres joven"
+}else{
+    msnEdad="Cuidate mucho!"
+}
+document.getElementById("msnEdad").innerHTML=msnEdad;
