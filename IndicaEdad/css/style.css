@@ -9,7 +9,7 @@ h1{
     max-width: 60%;
     margin: auto;
 }
-.imgDni, .texto-centrado{
+.texto-centrado{
     text-align: center;
 }
 #msnError{
