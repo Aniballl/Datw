@@ -77,25 +77,59 @@ switch(nota){
         notaS="Esta no es tu nota";
 }
 document.getElementById("nota").innerHTML=notaS;
-//Calcualar edad
+//Calcualar nota
 function notaT(){
     let notaZ=document.getElementById("notaT").value;
     let msnNota;
-    if(notaZ <= 0||notaZ >11 || notaZ== ""){
-        let msnError="Indique bien su edad";
+    if(notaZ <0||notaZ >11 || notaZ== ""){
+        let msnError="Indique bien su nota";
         document.getElementById("msnError").innerHTML=msnError;
     }else{
-        if(notaZ>5){
+        if(notaZ <5){
             msnNota="Suspenso"; 
-         }else if(notaZ>7){
-            msnNota="biem";
-        }else if(notaZ>9){
-            msnNota="notable"
-        }else if(notaZ<=9){
+         }else if(notaZ<7){
+            msnNota="Bien";
+        }else if(notaZ<9){
+            msnNota="Notable"
+        }else if(notaZ<=10){
             msnNota="Sobresaliente"
          }else{
             msnNota="Ponlo bien bobo"
          }
         document.getElementById("resultado").innerHTML=msnNota;
     }
+}
+/**
+ * for(let i=1; i<10; i++)
+ * Ejercicio: Mostrar en consola los numeros del 1 al 20 de mayor a menor
+    for(let i=20; i>0;i--)
+*/
+for(let i=20;i>0;i=i-2){
+    console.log(i);
+}
+//bucle for each->
+function cambiarColor(){
+let colores=["#2812","#1301","green","#2828","orange","#1313"]
+let indice=parseInt(document.getElementById("numero").value);
+--indice;
+for(let i=0;i<colores.length;i++){
+    if(i==indice){
+        //cambiar el color a el div caja
+        document.getElementById("caja").style.backgroundColor=colores[i];
+        document.getElementById("dia").style.color=colores[i];
+    }
+}
+//recorrer el array con un for of 
+for(let i of colores){
+    document.getElementById("caja2").style.backgroundColor=i;
+    setInterval(fin,1000);
+}
+}
+
+function parar(){
+    clearInterval(fin);
+}
+function leer(){
+    let colores=["#2812","#1301","green","#2828","orange","#1313"]
+    setInterval (fin,1000);
 }
