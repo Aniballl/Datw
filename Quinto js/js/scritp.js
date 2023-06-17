@@ -121,15 +121,15 @@ for(let i=0;i<colores.length;i++){
 }
 //recorrer el array con un for of 
 for(let i of colores){
+    //recorremos todos los elementos del array
     document.getElementById("caja2").style.backgroundColor=i;
-    setInterval(fin,1000);
+    document.getElementById("caja2").style.transition="width 2s, height 2s, transform 2s";
+    document.getElementById("caja2").style.transform="rotate(180deg)";
 }
-}
-
-function parar(){
-    clearInterval(fin);
-}
-function leer(){
-    let colores=["#2812","#1301","green","#2828","orange","#1313"]
-    setInterval (fin,1000);
+//si ponemos iten en vez de i, item=contiene el valor no el indice, mientras q i contiene el indice, esto de devido al if de antes de i que es == a indice, mientras q item coje directamente el valor.  
+/**transiyion-property: width;
+ * transition-duration: 2s;
+ * transition-property: height;
+ * transition-delay: 2s;
+ */
 }
