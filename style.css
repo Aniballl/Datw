@@ -2,19 +2,18 @@
     list-style: none;
     display:flex; 
     margin: auto;
-    text-align: center;  
+    text-align: center;
+    background-color: rgb(43, 42, 42);
 }
 .menu li{
     padding: 25px 7px 25px 7px;
     border-right: 50px;
     margin: auto;
-   
 }
 menu li:hover{
     background-color:rgb(0, 0, 0);
     text-align: center;
     margin: auto;
-    
 }
 .menuP{
     width: 90%;
