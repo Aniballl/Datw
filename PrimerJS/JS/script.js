@@ -53,9 +53,9 @@ console.log(suma);//es una manera de visualizar una salida en javaScript
 
 //crear mi primera fusión->serie de funciones que se ejecutaran cuando sea llamada
 /**
- * la siguiente funcion muestra una laerta e inserta un parrafo en lugar donde se identifica
- * id=parrafo1
- */
+* la siguiente funcion muestra una lerta e inserta un parrafo en lugar donde se identifica
+* id=parrafo1
+*/
 function mostrarAlerta(){
     alert("Macarroenes Coming Sonn");
     

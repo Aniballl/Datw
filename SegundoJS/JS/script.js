@@ -37,7 +37,7 @@ document.getElementById("comp10").innerHTML=resultado;
 //Operador logico - OR y se representa con dos barras-> ||
 resultado=(x==y)||(x===z);//flase false->false
 document.getElementById("comp11").innerHTML=resultado;
-resultado=(x==y)||(x==z);//false true->false
+resultado=(x==y)||(x==z);//false true->true
 document.getElementById("comp12").innerHTML=resultado;
 resultado=(x<y)||(x==z);//true true->true
 document.getElementById("comp13").innerHTML=resultado;
