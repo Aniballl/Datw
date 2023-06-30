@@ -1,0 +1,44 @@
+ .logo img{
+    max-width: 50%;
+    float: left;
+    padding-left: 75px;
+ }
+ .titulo h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0F2F62;
+    padding-top: 50px;
+    text-align: center;
+    font-size: xx-large;
+ }
+ .logo{
+    max-width: 30%;
+ }
+ .titulo{
+    max-width: 70%;
+ }
+section{
+    clear: both;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+.boton{
+    background-color: #0F2F62;
+    border: 1px solid #0F2F62;
+    padding: 10px;
+    color: white;
+}
+.boton:hover{
+    color: #0F2F62;
+    border: 1px solid #0F2F62;
+    background-color: white;
+}
+input#peso{
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px dotted #0F2F62;
+}
+h3{
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
