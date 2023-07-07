@@ -1,31 +1,43 @@
  .logo img{
     max-width: 50%;
     float: left;
-    padding-left: 75px;
+    padding: 20px; 
+ }
+ .logo1{
+    text-align: center;
+    margin: auto;
  }
  .titulo h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #0F2F62;
-    padding-top: 50px;
+    padding-top: 12%;
+    padding-bottom: 20px;
+    padding-left: 2%;
     text-align: center;
     font-size: xx-large;
+    margin: auto;
  }
  .logo{
-    max-width: 30%;
+    max-width: 50%;
+    text-align: center;
  }
  .titulo{
-    max-width: 70%;
+    max-width: 100%;
+    text-align: center;
  }
 section{
     clear: both;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    width: 80%;
  }
 .boton{
     background-color: #0F2F62;
     border: 1px solid #0F2F62;
     padding: 10px;
     color: white;
+    margin: auto;
 }
 .boton:hover{
     color: #0F2F62;
@@ -41,4 +53,26 @@ h3{
     margin: auto;
     text-align: center;
     padding-top: 20px;
+}
+@media (width>=800px){
+    .titulo{
+        width: 100%;
+    }
+    .titulo1{
+        width: 100%;
+        padding-top: 70px;
+    }
+    .boton{
+        width: 90%;
+        height: auto;
+    }
+    .logo1{
+        width: 90%;
+        height: auto;
+        padding-top: 40%;
+    }
+    .resultado{
+        width: 90%;
+        height: auto;
+    }
 }

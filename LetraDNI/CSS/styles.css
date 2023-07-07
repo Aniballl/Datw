@@ -6,8 +6,8 @@ h1{
     text-align: center;
 }
 .contenedor{
-    max-width: 60%;
-    margin: auto;
+    text-align: center;
+    margin: 20px auto;
 }
 .imgDni, .texto-centrado{
     text-align: center;
@@ -15,4 +15,17 @@ h1{
 #msnError{
     color: darkred;
     font-style: italic;
+}
+@media (width<=800px){
+    .contenedor{
+        width: 100%;
+    }
+    .texto-centrado{
+        width: 90%;
+        height: auto;
+    }
+    .imgDni{
+        width: 90%;
+        height: auto;
+    }
 }
