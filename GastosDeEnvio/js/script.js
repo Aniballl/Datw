@@ -34,7 +34,7 @@ function calcularPrecio(peso){
         valor=(19.09*iva).toFixed(2);
     }
     if(peso>10 && peso<=15){
-        valor=(22,73*iva).toFixed(2);
+        valor=(22.73*iva).toFixed(2);
     }
     if(peso>15 && peso<=20){
         valor=(27.69*iva).toFixed(2);

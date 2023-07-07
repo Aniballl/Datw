@@ -54,25 +54,53 @@ h3{
     text-align: center;
     padding-top: 20px;
 }
-@media (width>=800px){
+@media (width<=800px){
     .titulo{
         width: 100%;
     }
-    .titulo1{
+    .titulo h1{
         width: 100%;
-        padding-top: 70px;
+        font-size: 50px;
     }
     .boton{
         width: 90%;
         height: auto;
+        padding-top: 10px;
     }
-    .logo1{
-        width: 90%;
+    .logo img{
+        width: auto;
         height: auto;
-        padding-top: 40%;
+        padding-top: 40px;
+        max-width: 70%;
     }
     .resultado{
         width: 90%;
         height: auto;
+    }
+}
+@media (width<=550px){
+    .logo img{
+        width: 70%;
+        height: auto;
+        padding-top: 30px;
+        max-width: 80%;
+    }
+    .titulo h1{
+        width: 100%;
+        height: auto;
+        font-size: 25px;
+    }
+}
+@media(width<=300px){
+    .logo img{
+        width: 70%;
+        height: auto;
+        padding-top: 40px;
+        max-width: 80%;
+    }
+    .titulo h1{
+        width: 100%;
+        height: auto;
+        font-size: 20px;
     }
 }
